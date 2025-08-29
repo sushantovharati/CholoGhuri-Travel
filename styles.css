@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Banner Section */
+.main-section{
+    max-width: 1450px;
+    margin: 0 auto;
+    border: 1px solid black;
+    place-items: center;
+}
+
+.banner-section{
+    width: 1170px;
+    height: 500px;
+    background-image: url(Images/banner-bg.png);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+.banner-title{
+    color: white;
+    font-size: 64px;
+}
+.banner-content{
+    height: 500px;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 1px solid red;
+}
+.banner-content .banner-title{
+    margin: 106px 287px 24px 287px;
+}
+.banner-content .banner-description{
+    margin: 0px 247px 48px 247px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.banner-content .input-section{
+    margin: 0px 185px 106px 185px;
+    padding: 16px;
+    background-color: rgba(255,255,255,0.4);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.size{
+    width: 174px;
+    height: 52px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border: none;
+    border-radius: 10px;
+    color:rgb(171, 169, 169);
+}
+
+.primary-btn{
+    width: 174px;
+    height: 52px;
+    color: white;
+    background-color: rgb(255, 84, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .main-section{
+    max-width: 600px;
+}
+
+.banner-section{
+    width: 335px;
+    height: 483px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+.banner-content{
+    height: 480px;
+    border-radius: 15px;
+}
+.banner-content .banner-title{
+    margin: 32px 16px 8px 32px;
+    font-size: 22px;
+}
+.banner-content .banner-description{
+    margin: 0px 8px 32px 8px;
+    font-size: 14px;
+}
+
+.banner-content .input-section{
+    margin: 32px 24px 32px 24px;
+    flex-direction: column;
+}
+
+.size{
+    width: 255px;
+    height: 52px;
+    margin-bottom: 16px;
+}
+#where-go{
+    width: 230px;
+}
+.primary-btn{
+    width: 255px;
+    height: 52px;
+}
+
+}
