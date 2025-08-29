@@ -2,7 +2,38 @@
     margin: 0;
     padding: 0;
 }
+/* header section styles */
+.navbar,
+.brand,
+.nav-link{
+    display: flex;
+}
 
+.navbar{
+    width: 1170px;
+    margin: 50px auto;
+    justify-content: space-between;
+}
+.navbar .brand .brand-icon{
+    width: 56px;
+    height: 48px;
+    margin-right: 10px;
+}
+
+.navbar .brand .brand-name{
+    font-size: 36px;
+}
+.navbar .nav-link li{
+    list-style: none;
+    margin-left: 44px;
+}
+.navbar .nav-link a{
+    text-decoration: none;
+    color: gray;
+}
+#home{
+    color: rgb(255, 84, 0);
+}
 /* Banner Section */
 .main-section {
     max-width: 1450px;
