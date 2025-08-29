@@ -194,12 +194,50 @@
     line-height: 1.6;
 }
 
+/* footer section styles */
+.footer-section{
+    width: 1440px;
+    height: 502px;
+    background-color:rgb(243, 243, 243) ;
+    text-align: center;
+}
 
-/* .banner-section,
-.destination,
-.popular-tours {
-    display: none;
-} */
+.footer-section .brand{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.footer-section .brand h3{
+    
+    margin-top: 110px;
+}
+.footer-section .brand img{
+    width: 46px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 110px;
+}
+.travel-word{
+    color: rgb(255, 84, 0);
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+}
+.social-links .social-link{
+    display: flex;
+}
+.social-links .social-link li{
+    list-style: none;
+    background-color: black;
+    margin: 10px;
+    margin-bottom: 40px;
+}
+hr{
+    margin: 0 auto;
+    width: 872px;
+    margin-bottom: 40px;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -350,8 +388,32 @@
 
     .second-row {
         place-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 24px;
     }
+
+    /* footer section styles */
+    .footer-section{
+    width: 375px;
+    height: 309px;
+    margin: 0 auto;
+}
+
+.footer-section .brand{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+.footer-section .brand h3{
+    
+    margin-top: 32px;
+}
+.footer-section .brand img{
+    margin-top: 32px;
+}
+
+hr{
+    width: 335px;
+}
 
 
 }
